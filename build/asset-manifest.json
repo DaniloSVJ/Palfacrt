@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.js": "./static/js/main.2572275f.chunk.js",
+    "main.js.map": "./static/js/main.2572275f.chunk.js.map",
+    "runtime-main.js": "./static/js/runtime-main.c32bd6e1.js",
+    "runtime-main.js.map": "./static/js/runtime-main.c32bd6e1.js.map",
+    "static/js/2.9b486bec.chunk.js": "./static/js/2.9b486bec.chunk.js",
+    "static/js/2.9b486bec.chunk.js.map": "./static/js/2.9b486bec.chunk.js.map",
+    "index.html": "./index.html",
+    "static/js/2.9b486bec.chunk.js.LICENSE.txt": "./static/js/2.9b486bec.chunk.js.LICENSE.txt",
+    "static/media/carrinho.e2633bb4.svg": "./static/media/carrinho.e2633bb4.svg",
+    "static/media/clientes.4c8486c3.svg": "./static/media/clientes.4c8486c3.svg",
+    "static/media/estoque.e744e285.svg": "./static/media/estoque.e744e285.svg",
+    "static/media/logomarca.64787a25.png": "./static/media/logomarca.64787a25.png",
+    "static/media/melhores-tecnologias.4a1690b8.svg": "./static/media/melhores-tecnologias.4a1690b8.svg",
+    "static/media/produto.f75d6dd5.svg": "./static/media/produto.f75d6dd5.svg",
+    "static/media/relatorio.774354ad.svg": "./static/media/relatorio.774354ad.svg",
+    "static/media/undraw_Preferences_re_49in.9f7ee0ba.svg": "./static/media/undraw_Preferences_re_49in.9f7ee0ba.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.c32bd6e1.js",
+    "static/js/2.9b486bec.chunk.js",
+    "static/js/main.2572275f.chunk.js"
+  ]
+}
