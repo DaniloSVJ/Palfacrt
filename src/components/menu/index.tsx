@@ -3,6 +3,7 @@ import React, { useState } from 'react'
 import { Header } from './styles'
 
 import logomarca from '../../image/logomarca.png';
+import { Link } from 'react-router-dom';
 
 const Menu: React.FC = () => {
 
@@ -32,19 +33,19 @@ const Menu: React.FC = () => {
                     <nav>
                         <ul>
                             <li>
-                                <a href="/">Home</a>
+                                <Link to="/">Home</Link>
                             </li>
                             <li>
-                                <a href="/cadastro">Suporte</a>
+                                <Link to="/cadastro">Suporte</Link>
                             </li>
                             <li>
-                                <a href="/cadastro">Financeiro</a>
+                                <Link to="/cadastro">Financeiro</Link>
                             </li>
                             <li>
-                                <a href="/cadastro">Comercial</a>
+                                <Link to="/cadastro">Comercial</Link>
                             </li>
                             <li>
-                                <a href="/cadastro">Minha Conta</a>
+                                <Link to="/cadastro">Minha Conta</Link>
                             </li>
                         </ul>
                     </nav>

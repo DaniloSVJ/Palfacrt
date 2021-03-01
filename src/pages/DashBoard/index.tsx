@@ -12,6 +12,7 @@ import Menu from '../../components/menu'
 import enfeite from '../../image/melhores-tecnologias.jpg';
 
 import logomarca from '../../image/logomarca.png';
+import { Link } from 'react-router-dom';
 
 const DashBoard: React.FC = () => {
 
@@ -139,7 +140,7 @@ const DashBoard: React.FC = () => {
             <main>
                 <section className="cards">
                     {cartoes.map(cartao => (
-                        <a id="linkCard" href={cartao.href}>
+                        <Link id="linkCard" to={cartao.href}>
                             <div className="card">
                                 <div className="image">
                                     <img src={cartao.src} alt={cartao.altimg} />
@@ -150,7 +151,7 @@ const DashBoard: React.FC = () => {
 
                                 </div>
                             </div>
-                        </a>
+                        </Link>
                     ))}
 
 
